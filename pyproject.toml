@@ -1,0 +1,12 @@
+[project]
+name = "matcom-templates"
+version = "0.1.0"
+description = "Generate templates for MatCom"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "docxtpl>=0.19.1",
+    "openai>=1.59.3",
+    "python-dotenv>=1.0.1",
+    "streamlit>=1.41.1",
+]
